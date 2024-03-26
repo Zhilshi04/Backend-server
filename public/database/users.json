@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "username": "kong123",
+    "password": "$2b$10$fz8/cNmJQgyBUgRnBNVroeHCSi2RZ7d2/GMTKh5pmhYy.ZGnmv9oW",
+    "email": "pannet.v@ku.th",
+    "ServerList": [
+      "fds",
+      "fsdf"
+    ]
+  }
+]
