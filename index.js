@@ -192,8 +192,8 @@ function getBase64StringForServer(serverName) {
 
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000", // Adjust the origin as needed
-    credentials: true,
+    origin: 'https://chat-with-chock.vercel.app',
+    optionsSuccessStatus: 200
   },
 });
 
@@ -216,6 +216,8 @@ const io = socket(server, {
 //     console.log('User disconnected');
 //   });
 // });
+app.use(cors(corsOptions));
+
 io.on('connection', (socket) => {
   console.log('New user connected');
 
