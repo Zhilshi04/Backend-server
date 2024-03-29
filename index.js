@@ -192,7 +192,7 @@ function getBase64StringForServer(serverName) {
 
 const io = socket(server, {
   cors: {
-    origin: "https://chat-with-chock.vercel.app/", // Adjust the origin as needed
+    origin: "http://localhost:3000", // Adjust the origin as needed
     credentials: true,
   },
 });
