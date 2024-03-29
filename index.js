@@ -192,7 +192,7 @@ function getBase64StringForServer(serverName) {
 
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000", // Adjust the origin as needed
+    origin: "https://backend-server-hswc.onrender.com", // Adjust the origin as needed
     credentials: true,
   },
 });
