@@ -216,7 +216,7 @@ const io = socket(server, {
 //     console.log('User disconnected');
 //   });
 // });
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 io.on('connection', (socket) => {
   console.log('New user connected');
