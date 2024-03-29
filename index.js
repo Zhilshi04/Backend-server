@@ -192,7 +192,7 @@ function getBase64StringForServer(serverName) {
 
 const io = socket(server, {
   cors: {
-    origin: "https://backend-server-hswc.onrender.com", // Adjust the origin as needed
+    origin: "https://chat-with-chock.vercel.app/", // Adjust the origin as needed
     credentials: true,
   },
 });
